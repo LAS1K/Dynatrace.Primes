@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Primes results</title>
+</head>
+<body>
+    <p>Liczby pierwsze:</p>
+    <p th:text="${liczby}"></p>
+    <form method="post">
+        <input type="submit" value="Ponowne przeliczenie" style="display: block;">
+    </form>
+</body>
+</html>
