@@ -1,6 +1,7 @@
 package DynatracePrimes.Primes;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -43,7 +44,6 @@ public class PrimeAlgorithm {
                 sortedPrimes.append(i+", ");
             }
         }
-
 
     return sortedPrimes.toString();
     }
